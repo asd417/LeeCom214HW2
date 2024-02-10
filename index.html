@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HW2
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            .box{
+                border: 0.1px solid #2b2b2b;
+                cursor: zoom-in;
+            }
+            .box:active{
+                border: 0.1px solid #2b2b2b;
+                cursor: zoom-out;
+                transform: scale(1.8);
+            }
+            body{
+                text-align: center;
+                background-color: rgb(228, 180, 200);
+            }
+            img{
+                max-width: 100%;
+            }
+            .container{
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .largeContainer{
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                font-size: large;
+            }
+            .listItem {
+                justify-content: left;
+            }
+            .greenText {
+                color: aquamarine;
+            }
+            .largebox1{
+                border: 0.1px solid #494949;
+
+            }
+            .largebox2{
+                border: 0.1px solid #e9e5e5;
+                padding: 4px;
+            }
+            .tableImage{
+                width:250px;
+            }
+            .topBar{
+                width: 50%;
+            }
+            .centerAligner{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+        <!-- link is used to import stylesheet from online. The style from this stylesheet is well shown in the table and the page scrollbar -->
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/98.css">
+    </head>
+    <body>
+        <div style="margin-bottom: 50px;">
+            <h1 class="greenText">
+                Vaporwave
+            </h1>
+            <div class="centerAligner">
+                <div class="topBar">
+                    <div class="largebox1">
+                        <div class="largebox2">
+                        <b>
+                        Vaporwave aesthetics are a distinctive style that emerged in the early 2010s, primarily in internet communities and online platforms. It encompasses a blend of retro and futuristic elements, often with a heavy emphasis on nostalgia and surrealism. Vaporwave draws inspiration from various sources, including 1980s and 1990s consumer culture, corporate imagery, Japanese aesthetics, and electronic music.
+                        </b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="Floral_shoppe.webp" class="box">
+        <h4 class="greenText">Features of Vaporwave:</h4>
+        <div class="largeContainer">
+            <div class="largebox1">
+                <div class="largebox2">
+                    <!-- li is a list item. Puts a little dot next to signify a list -->
+                    <li class="listItem">
+                        <b>
+                            Nostalgic Imagery
+                        </b>
+                        <p>
+                        Vaporwave often incorporates imagery from the 80s and 90s, such as retro video games, VHS tapes, obsolete technology, and vintage advertisements. These nostalgic references evoke feelings of longing or nostalgia for a bygone era.
+                        </p>
+                    </li>
+                    <li class="listItem">
+                        <b>
+                            Aesthetic Remixing
+                        </b>
+                        <p>
+                            Vaporwave artists frequently remix and manipulate existing visuals, music, and other media to create new compositions. This may involve slowing down or distorting audio samples, altering color palettes, or repurposing corporate logos and branding.
+                        </p>
+                    </li>
+                    <li class="listItem">
+                        <b>
+                            Surrealism
+                        </b>
+                        <p>
+                            Vaporwave artworks often feature surreal or dreamlike elements, blurring the line between reality and fantasy. This can include psychedelic visuals, glitch effects, and surreal landscapes.                    
+                        </p>
+                    </li>
+                    
+                </div>
+            </div>
+        </div>
+        <h2 class="greenText">Vaporwave Music</h2>
+        <div class="largeContainer">
+            <div class="largebox1">
+                <div class="largebox2">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Images</th>
+                                <th>Title</th>
+                                <th>Artist</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="Floral_shoppe.webp" class="tableImage"></td>
+                                <td>リサフランク420 / 現代のコンピュー</td>
+                                <td>Macintosh Plus</td>
+                                <td><a href="https://vektroid.bandcamp.com/album/floral-shoppe">Bandcamp Link</a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="a2819687779_16.jpg" class="tableImage"></td>
+                                <td>espirit.wav</td>
+                                <td>ESPRIT 空想</td>
+                                <td><a href="https://georgeclanton.bandcamp.com/track/esprit-wav">Bandcamp Link</a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="a2529781398_16.jpg" class="tableImage"></td>
+                                <td>Private Caller</td>
+                                <td>SAINT PEPSI</td>
+                                <td><a href="https://saintpepsi.bandcamp.com/album/winners-circle-saint-pepsi-deluxe-edition">Bandcamp Link</a></td>
+                            </tr>
+                            <tr>
+                                <td><img src="a2449390981_10.jpg" class="tableImage"></td>
+                                <td>Bae City Rollaz (w​/​И​Δ​Τ​V​И​)</td>
+                                <td>YUNG BAE</td>
+                                <td><a href="https://neoncityrecords.bandcamp.com/track/bae-city-rollaz-w-v">Bandcamp Link</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
